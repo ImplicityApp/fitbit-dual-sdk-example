@@ -1,0 +1,16 @@
+{
+  "extends": "./node_modules/@fitbit/sdk/sdk-tsconfig.json",
+  "compilerOptions": {
+    "types": ["jest", "node"],
+    "noEmit": true,
+		"module": "es2015",
+		"moduleResolution": "node",
+		"target": "es5",
+		"jsx": "react",
+		"jsxFactory": "createComponent",
+		"lib": ["es5", "es2015.promise"],
+		"esModuleInterop": true
+	},
+  "include": ["./node_modules/fitbit-sdk-types/types", "**/*.ts", "**/*.tsx"],
+  "exclude": ["**/*.sdk5.ts", "**/*.test.ts"]
+}

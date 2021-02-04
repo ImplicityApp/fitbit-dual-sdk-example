@@ -1,0 +1,6 @@
+<svg id="my-popup" display="none">
+  <text class="h3 center-text magenta-fill">Ready, Set, Go</text>
+  <text class="h4 center-text foreground-fill">Are you ready?</text>
+  <use id="button-left" href="#text-button" class="text-button bottom left secondary application-fill" />
+  <use id="button-right" href="#text-button" class="text-button bottom right application-fill" />
+</svg>

@@ -1,0 +1,22 @@
+.application-fill           { fill: fb-pink; }
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
+.magenta-fill               { fill: fb-magenta; }
+
+#my-popup .h3 {
+  x: 50%;
+  y: 33%;
+}
+
+#my-popup .h4 {
+  x: 50%;
+  y: 50%;
+}
+
+#button-left #text {
+  text-buffer: "NO";
+}
+
+#button-right #text {
+  text-buffer: "YES";
+}

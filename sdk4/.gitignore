@@ -1,0 +1,3 @@
+# Ignore symlinked files.
+app/index.ts
+companion/index.ts

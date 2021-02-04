@@ -1,0 +1,21 @@
+<svg id="my-popup" display="none">
+  <rect class="full-size" fill="fb-black" />
+
+  <use href="#mixed-text-center-mid" class="dialog-mixed-text" fill="fb-white">
+    <set href="#top-padding" attributeName="display" to="none" />
+    <set href="#header/text" attributeName="text-buffer" to="Ready, Set, Go" />
+    <set href="#header/text" attributeName="fill" to="fb-magenta"/>
+    <set href="#copy/text" attributeName="text-buffer" to="Are you ready?" />
+    <set href="#bottom-padding" attributeName="display" to="none" />
+  </use>
+
+  <use id="button-left" class="dialog-half-button-left" href="#square-button-neutral">
+    <set href="#text" attributeName="text-buffer" to="No" />
+    <set href="#text" attributeName="text-anchor" to="middle" />
+  </use>
+
+  <use id="button-right" class="dialog-half-button-right" href="#square-button-negative">
+    <set href="#text" attributeName="text-buffer" to="Yes" />
+    <set href="#text" attributeName="text-anchor" to="middle" />
+  </use>
+</svg>

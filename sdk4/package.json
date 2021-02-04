@@ -1,0 +1,32 @@
+{
+  "name": "dual-sdk-project",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0",
+    "@fitbit/sdk-cli": "^1.7.3",
+    "fitbit-sdk-types": "^4.3.9",
+    "jest": "~25.2.7"
+  },
+  "fitbit": {
+    "appUUID": "1a170b04-8d7d-43dd-a2b1-ce460fc57b0c",
+    "appType": "app",
+    "appDisplayName": "Dual SDK Test",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
